@@ -1,0 +1,56 @@
+﻿生成启动时间为 2015/10/21 12:45:41。
+     1>项目“E:\GameDemo\StrandedEngine\StrandedEngine\StrandedEngine.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Stranded\StrandedEngine\BoundingGeometry.cpp ..\..\..\Stranded\StrandedEngine\Camera.cpp ..\..\..\Stranded\StrandedEngine\CommandScript.cpp ..\..\..\Stranded\StrandedEngine\D3DRenderer.cpp ..\..\..\Stranded\StrandedEngine\DirectInput.cpp ..\..\..\Stranded\StrandedEngine\DirectMusic.cpp ..\..\..\Stranded\StrandedEngine\Frustum.cpp ..\..\..\Stranded\StrandedEngine\GUI.cpp ..\..\..\Stranded\StrandedEngine\LogSystem.cpp ..\..\..\Stranded\StrandedEngine\Matrix.cpp ..\..\..\Stranded\StrandedEngine\objLoader.cpp ..\..\..\Stranded\StrandedEngine\Plane.cpp ..\..\..\Stranded\StrandedEngine\Polygon.cpp ..\..\..\Stranded\StrandedEngine\PropertyScript.cpp ..\..\..\Stranded\StrandedEngine\Quaternion.cpp ..\..\..\Stranded\StrandedEngine\RainPS.cpp ..\..\..\Stranded\StrandedEngine\Ray.cpp ..\..\..\Stranded\StrandedEngine\Route.cpp ..\..\..\Stranded\StrandedEngine\Token.cpp ..\..\..\Stranded\StrandedEngine\UMFLoader.cpp ..\..\..\Stranded\StrandedEngine\Vector.cpp ..\..\..\Stranded\StrandedEngine\XMesh.cpp ..\..\..\Stranded\StrandedEngine\XStructures.cpp
+         BoundingGeometry.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\BoundingGeometry.cpp”: No such file or directory
+         Camera.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\Camera.cpp”: No such file or directory
+         CommandScript.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\CommandScript.cpp”: No such file or directory
+         D3DRenderer.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\D3DRenderer.cpp”: No such file or directory
+         DirectInput.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\DirectInput.cpp”: No such file or directory
+         DirectMusic.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\DirectMusic.cpp”: No such file or directory
+         Frustum.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\Frustum.cpp”: No such file or directory
+         GUI.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\GUI.cpp”: No such file or directory
+         LogSystem.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\LogSystem.cpp”: No such file or directory
+         Matrix.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\Matrix.cpp”: No such file or directory
+         objLoader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\objLoader.cpp”: No such file or directory
+         Plane.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\Plane.cpp”: No such file or directory
+         Polygon.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\Polygon.cpp”: No such file or directory
+         PropertyScript.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\PropertyScript.cpp”: No such file or directory
+         Quaternion.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\Quaternion.cpp”: No such file or directory
+         RainPS.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\RainPS.cpp”: No such file or directory
+         Ray.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\Ray.cpp”: No such file or directory
+         Route.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\Route.cpp”: No such file or directory
+         Token.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\Token.cpp”: No such file or directory
+         UMFLoader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\UMFLoader.cpp”: No such file or directory
+         正在编译...
+         Vector.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\Vector.cpp”: No such file or directory
+         XMesh.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\XMesh.cpp”: No such file or directory
+         XStructures.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\..\Stranded\StrandedEngine\XStructures.cpp”: No such file or directory
+     1>已完成生成项目“E:\GameDemo\StrandedEngine\StrandedEngine\StrandedEngine.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.78

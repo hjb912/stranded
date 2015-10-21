@@ -1,0 +1,109 @@
+﻿生成启动时间为 2015/10/21 13:02:54。
+     1>项目“E:\GameDemo\GameDemo\GameDemo.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt game.cpp gameEngine.cpp level.cpp main.cpp menu.cpp
+         menu.cpp
+     1>e:\dxsdk\include\d3d9types.h(1385): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         e:\dxsdk\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>e:\dxsdk\include\dmerror.h(12): warning C4005: “FACILITY_DIRECTMUSIC”: 宏重定义
+                 c:\program files\windows kits\8.1\include\shared\winerror.h(162) : 参见“FACILITY_DIRECTMUSIC”的前一个定义
+         main.cpp
+     1>e:\dxsdk\include\d3d9types.h(1385): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         e:\dxsdk\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>e:\dxsdk\include\dmerror.h(12): warning C4005: “FACILITY_DIRECTMUSIC”: 宏重定义
+                 c:\program files\windows kits\8.1\include\shared\winerror.h(162) : 参见“FACILITY_DIRECTMUSIC”的前一个定义
+         level.cpp
+     1>e:\dxsdk\include\d3d9types.h(1385): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         e:\dxsdk\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>e:\dxsdk\include\dmerror.h(12): warning C4005: “FACILITY_DIRECTMUSIC”: 宏重定义
+                 c:\program files\windows kits\8.1\include\shared\winerror.h(162) : 参见“FACILITY_DIRECTMUSIC”的前一个定义
+     1>e:\gamedemo\gamedemo\level.cpp(41): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\gamedemo\gamedemo\level.cpp(42): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\gamedemo\gamedemo\level.cpp(43): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\gamedemo\gamedemo\level.cpp(47): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\gamedemo\gamedemo\level.cpp(51): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\gamedemo\gamedemo\level.cpp(55): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\gamedemo\gamedemo\level.cpp(59): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\gamedemo\gamedemo\level.cpp(60): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\gamedemo\gamedemo\level.cpp(61): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\gamedemo\gamedemo\level.cpp(93): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\gamedemo\gamedemo\level.cpp(108): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\gamedemo\gamedemo\level.cpp(123): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\gamedemo\gamedemo\level.cpp(144): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\gamedemo\gamedemo\level.cpp(165): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\gamedemo\gamedemo\level.cpp(186): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\gamedemo\gamedemo\level.cpp(187): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\gamedemo\gamedemo\level.cpp(200): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\gamedemo\gamedemo\level.cpp(221): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+         gameEngine.cpp
+     1>e:\dxsdk\include\d3d9types.h(1385): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         e:\dxsdk\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>e:\dxsdk\include\dmerror.h(12): warning C4005: “FACILITY_DIRECTMUSIC”: 宏重定义
+                 c:\program files\windows kits\8.1\include\shared\winerror.h(162) : 参见“FACILITY_DIRECTMUSIC”的前一个定义
+         game.cpp
+     1>e:\dxsdk\include\d3d9types.h(1385): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         e:\dxsdk\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>e:\dxsdk\include\dmerror.h(12): warning C4005: “FACILITY_DIRECTMUSIC”: 宏重定义
+                 c:\program files\windows kits\8.1\include\shared\winerror.h(162) : 参见“FACILITY_DIRECTMUSIC”的前一个定义
+     1>e:\gamedemo\gamedemo\game.cpp(204): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(210): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(226): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(235): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(241): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(257): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(266): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(270): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(276): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(292): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(302): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(318): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(325): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(331): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(347): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(357): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(361): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(367): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(383): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(392): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(408): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(418): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(434): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(441): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(447): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(463): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\gamedemo\gamedemo\game.cpp(496): warning C4244: “初始化”: 从“LONG”转换到“float”，可能丢失数据
+     1>e:\gamedemo\gamedemo\game.cpp(497): warning C4244: “初始化”: 从“LONG”转换到“float”，可能丢失数据
+     1>e:\gamedemo\gamedemo\game.cpp(499): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+         正在生成代码...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\GameDemo\Debug\GameDemo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\GameDemo\Debug\GameDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\GameDemo\Debug\GameDemo.lib" /MACHINE:X86 /SAFESEH Debug\game.obj
+         Debug\gameEngine.obj
+         Debug\level.obj
+         Debug\main.obj
+         Debug\menu.obj
+         E:\GameDemo\Debug\StrandedEngine.lib
+     1>game.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         GameDemo.vcxproj -> E:\GameDemo\Debug\GameDemo.exe
+     1>已完成生成项目“E:\GameDemo\GameDemo\GameDemo.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.15

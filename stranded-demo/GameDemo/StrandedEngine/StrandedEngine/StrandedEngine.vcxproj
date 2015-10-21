@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8FB10C62-EB1E-4C78-9928-9A0E88AA19B3}</ProjectGuid>
+    <RootNamespace>StrandedEngine</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <IncludePath>E:\DXSDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\DXSDK\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\BoundingGeometry.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\Camera.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\CommandScript.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\D3DRenderer.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\DirectInput.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\DirectMusic.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\Frustum.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\GUI.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\LogSystem.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\Matrix.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\objLoader.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\Plane.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\Polygon.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\PropertyScript.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\Quaternion.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\RainPS.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\Ray.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\Route.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\Token.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\UMFLoader.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\Vector.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\XMesh.cpp" />
+    <ClCompile Include="..\..\..\Stranded\StrandedEngine\XStructures.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\BoundingGeometry.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\Camera.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\CommandScript.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\D3DRenderer.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\defines.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\DirectInput.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\DirectMusic.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\engine.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\Frustum.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\GUI.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\InputInterface.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\light.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\LogSystem.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\material.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\MathDefines.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\MathLibrary.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\Matrix.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\objLoader.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\Physics.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\Plane.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\Polygon.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\PropertyScript.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\Quaternion.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\RainPS.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\Ray.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\RenderInterface.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\Route.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\SoundInterface.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\structs.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\Token.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\UMFLoader.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\Vector.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\XMesh.h" />
+    <ClInclude Include="..\..\..\Stranded\StrandedEngine\XStructures.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

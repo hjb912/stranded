@@ -1,0 +1,98 @@
+﻿生成启动时间为 2015/10/21 13:02:45。
+     1>项目“E:\GameDemo\StrandedEngine\StrandedEngine\StrandedEngine.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Stranded\StrandedEngine\BoundingGeometry.cpp ..\..\..\Stranded\StrandedEngine\Camera.cpp ..\..\..\Stranded\StrandedEngine\CommandScript.cpp ..\..\..\Stranded\StrandedEngine\D3DRenderer.cpp ..\..\..\Stranded\StrandedEngine\DirectInput.cpp ..\..\..\Stranded\StrandedEngine\DirectMusic.cpp ..\..\..\Stranded\StrandedEngine\Frustum.cpp ..\..\..\Stranded\StrandedEngine\GUI.cpp ..\..\..\Stranded\StrandedEngine\LogSystem.cpp ..\..\..\Stranded\StrandedEngine\Matrix.cpp ..\..\..\Stranded\StrandedEngine\objLoader.cpp ..\..\..\Stranded\StrandedEngine\Plane.cpp ..\..\..\Stranded\StrandedEngine\Polygon.cpp ..\..\..\Stranded\StrandedEngine\PropertyScript.cpp ..\..\..\Stranded\StrandedEngine\Quaternion.cpp ..\..\..\Stranded\StrandedEngine\RainPS.cpp ..\..\..\Stranded\StrandedEngine\Ray.cpp ..\..\..\Stranded\StrandedEngine\Route.cpp ..\..\..\Stranded\StrandedEngine\Token.cpp ..\..\..\Stranded\StrandedEngine\UMFLoader.cpp ..\..\..\Stranded\StrandedEngine\Vector.cpp ..\..\..\Stranded\StrandedEngine\XMesh.cpp ..\..\..\Stranded\StrandedEngine\XStructures.cpp
+         XStructures.cpp
+     1>e:\dxsdk\include\d3d9types.h(1385): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         XMesh.cpp
+     1>e:\dxsdk\include\d3d9types.h(1385): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Vector.cpp
+         UMFLoader.cpp
+     1>e:\stranded\strandedengine\umfloader.cpp(22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>e:\stranded\strandedengine\umfloader.cpp(120): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+         Token.cpp
+     1>e:\stranded\strandedengine\token.cpp(30): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\stranded\strandedengine\token.cpp(63): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>e:\stranded\strandedengine\token.cpp(83): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\stranded\strandedengine\token.cpp(102): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(195) : 参见“strncpy”的声明
+         Route.cpp
+         Ray.cpp
+         RainPS.cpp
+         Quaternion.cpp
+         PropertyScript.cpp
+     1>e:\stranded\strandedengine\propertyscript.cpp(319): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\stranded\strandedengine\propertyscript.cpp(336): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\stranded\strandedengine\propertyscript.cpp(350): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\stranded\strandedengine\propertyscript.cpp(364): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>e:\stranded\strandedengine\propertyscript.cpp(380): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+         Polygon.cpp
+         Plane.cpp
+         objLoader.cpp
+     1>e:\stranded\strandedengine\objloader.cpp(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+         Matrix.cpp
+         LogSystem.cpp
+     1>e:\stranded\strandedengine\logsystem.cpp(71): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“vsprintf”的声明
+         GUI.cpp
+         Frustum.cpp
+         DirectMusic.cpp
+     1>e:\dxsdk\include\dmerror.h(12): warning C4005: “FACILITY_DIRECTMUSIC”: 宏重定义
+                 c:\program files\windows kits\8.1\include\shared\winerror.h(162) : 参见“FACILITY_DIRECTMUSIC”的前一个定义
+         DirectInput.cpp
+         e:\dxsdk\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         D3DRenderer.cpp
+     1>e:\dxsdk\include\d3d9types.h(1385): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\stranded\strandedengine\d3drenderer.cpp(827): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“vsprintf”的声明
+     1>e:\stranded\strandedengine\d3drenderer.cpp(845): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“vsprintf”的声明
+         正在生成代码...
+         正在编译...
+         CommandScript.cpp
+     1>e:\stranded\strandedengine\commandscript.cpp(190): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+         Camera.cpp
+         BoundingGeometry.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\GameDemo\Debug\StrandedEngine.lib" /NOLOGO Debug\BoundingGeometry.obj
+         Debug\Camera.obj
+         Debug\CommandScript.obj
+         Debug\D3DRenderer.obj
+         Debug\DirectInput.obj
+         Debug\DirectMusic.obj
+         Debug\Frustum.obj
+         Debug\GUI.obj
+         Debug\LogSystem.obj
+         Debug\Matrix.obj
+         Debug\objLoader.obj
+         Debug\Plane.obj
+         Debug\Polygon.obj
+         Debug\PropertyScript.obj
+         Debug\Quaternion.obj
+         Debug\RainPS.obj
+         Debug\Ray.obj
+         Debug\Route.obj
+         Debug\Token.obj
+         Debug\UMFLoader.obj
+         Debug\Vector.obj
+         Debug\XMesh.obj
+         Debug\XStructures.obj
+         StrandedEngine.vcxproj -> E:\GameDemo\Debug\StrandedEngine.lib
+     1>已完成生成项目“E:\GameDemo\StrandedEngine\StrandedEngine\StrandedEngine.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.32
